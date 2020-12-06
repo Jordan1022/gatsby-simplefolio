@@ -29,20 +29,22 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Family Date Night',
+    info:
+      'A passion project with the goal of offering creative ideas for family time based on location, cost etc.',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/THE-DAD3/FamilyDateNight', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'joyallenwrites.png',
+    title: 'Joy Allen Writes',
+    info:
+      'A Blog from writer Joy Allen with a focus on faith and encouragement. The site which we designed and currently maintain has e-commerce integrated as well.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.joyallenwrites.com',
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -68,12 +70,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/jordan-allen-125b628/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Jordan1022',
     },
   ],
 };
